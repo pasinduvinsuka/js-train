@@ -23,7 +23,7 @@ function booksAvailability() {
     }
 }
 
-function sellBook(name, soldAmount) {
+function sellBook( soldAmount) {
     this.soldAmount = soldAmount;
     let remain = book1.amount - soldAmount;
     console.log(`new amount is ${remain}`)
