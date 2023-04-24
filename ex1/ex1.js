@@ -8,7 +8,7 @@ class book {
         this.title = title;
         this.author = author;
         this.ISBN = ISBN;
-        this.amount = amount;
+        this.amount = amount;     
     }
 }
 
